@@ -7,10 +7,11 @@ Sign up and see what walks are available in your area. Walk a dog and earn credi
 #### Environment:  
 Ruby on Rails  
 jQuery  
-Sass
-BootStrap 
-Google Maps API  
-postgreSQL  
+Wow.js for animations
+Sass  
+BootStrap   
+Google Maps API/Geocoder  
+postgreSQL
 
 ![alt text](https://github.com/S-MORA/PackApp/blob/master/landing-screenshot.png)
 

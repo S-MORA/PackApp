@@ -1,4 +1,7 @@
-# Collaborative Ruby on Rails App Dog Walking Co-op Application  
+# Collaborative Ruby on Rails App
+
+Dog Walking Co-op 
+
 3 person team over the span of 4 days & sprints.
 
 ### Features include:    

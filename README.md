@@ -5,11 +5,12 @@
 Sign up and see what walks are available in your area. Walk a dog and earn credit for your dogs to be walked.
 
 #### Environment:  
-Ruby on Rails
-jQuery
+Ruby on Rails  
+jQuery  
 Sass
-Google Maps API
-postgreSQL
+BootStrap 
+Google Maps API  
+postgreSQL  
 
 ![alt text](https://github.com/S-MORA/PackApp/blob/master/landing-screenshot.png)
 

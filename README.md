@@ -1,6 +1,6 @@
 # Collaborative Ruby on Rails App
 
-Dog Walking Co-op 
+Dog Walking Co-op
 
 3 person team over the span of 4 days & sprints.
 
@@ -9,12 +9,16 @@ Sign up and see what walks are available in your area. Walk a dog and earn credi
 
 #### Environment:  
 Ruby on Rails  
+postgreSQL
 jQuery  
 Wow.js for animations  
 Sass  
 BootStrap   
 Google Maps API/Geocoder  
-postgreSQL
+Image upload to AWS
+
+
+To run locally run rake dummy:all to populate an entire DB
 
 ![alt text](https://github.com/S-MORA/PackApp/blob/master/landing-screenshot.png)
 

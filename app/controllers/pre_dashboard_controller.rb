@@ -10,16 +10,7 @@ class PreDashboardController < ApplicationController
 
     dogs = Dog.where(user_id: user_ids)
     @num_dogs = dogs.length
-
-
-
-
-
   end
-
-
-
-
 
   def pre_dashboard_params
     params.require(:pre_dashboard).permit(:postal_code)

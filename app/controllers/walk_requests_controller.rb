@@ -4,25 +4,15 @@ class WalkRequestsController < ApplicationController
   def new
     @user_id = current_user.id
     @walk_request = WalkRequest.new
-
-
   end
 
   def create
-
     current_user.walk_requests.create(walk_request_params);
-
-    # @walk_request = WalkRequest.new(walk_start_time: params[:walk_start_time], date: params[:date], dog_id: params[:dog_id])
-    # @walk_request.user_id = current_user.id
-    # @walk_request.save
     redirect_to dashboard_path
   end
 
   def show
-    #needs to be changed from .first once devise is up and running
     @user=current_user
-    #Also will be changed once devise works
-   
     @current_walk = WalkRequest.find(params[:id])
     @dog = @current_walk.dog
   end
@@ -49,23 +39,17 @@ class WalkRequestsController < ApplicationController
 
   def view
     @this_walk = WalkRequest.find(params[:id])
-
-  
   end
 
   def cancel
-
-      @this_walk = WalkRequest.find(params[:id])
-      @this_walk.destroy
-      redirect_to dashboard_path
+    @this_walk = WalkRequest.find(params[:id])
+    @this_walk.destroy
+    redirect_to dashboard_path
   end
-# need to create show on dashboard
 
   private
 
   def walk_request_params
     params.require(:walk_request).permit(:date, :walk_start_time, :dog_id)
   end
-
-
 end

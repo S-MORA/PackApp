@@ -6,7 +6,6 @@ $(document).ready(function() {
     return;
   }
 
-
   new WOW().init();
 
   $('a.page-scroll').bind('click', function(event) {
@@ -20,6 +19,5 @@ $(document).ready(function() {
   $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
   });
-
 
 });

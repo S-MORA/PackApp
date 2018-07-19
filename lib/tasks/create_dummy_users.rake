@@ -1,6 +1,6 @@
 namespace :dummy do
 
-       # run rake dummy:all to populate an entire DB
+  # run rake dummy:all to populate an entire DB
     task all: [:create_users, :create_dogs, :create_walk_requests ]
 
     #  run  rake dummy:create_users

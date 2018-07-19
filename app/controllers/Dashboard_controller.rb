@@ -13,14 +13,11 @@ class DashboardController < ApplicationController
 
             @available_walks = WalkRequest.where.not(user_id: @user.id).where(walker_id: nil).where('date>=?', Date.today)
 
-            # # will need to be changed once active record is working
             @user_walks = WalkRequest.where(walker_id: @user.id).where(completed: nil).where('date>=?', Date.today)
 
         else
           redirect_to join_path, notice: 'You are not logged in'
         end
     end
-
-
 
 end

@@ -14,7 +14,7 @@ jQuery
 Wow.js for animations  
 Sass  
 BootStrap   
-Google Maps API/Geocoder  
+Google Maps API/Geocoder    
 Image upload to AWS
 
 
@@ -25,3 +25,5 @@ To run locally run rake dummy:all to populate an entire DB
 ![alt text](https://github.com/S-MORA/PackApp/blob/master/landing-screenshot2.png)
 
 ![alt text](https://github.com/S-MORA/PackApp/blob/master/login-screenshot.png)
+
+![alt text](https://github.com/S-MORA/PackApp/blob/master/predash-screenshot.png)
